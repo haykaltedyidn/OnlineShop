@@ -6,6 +6,7 @@ import 'package:online_shop/presentation/splash/bloc/splash_cubit.dart';
 import 'package:online_shop/presentation/splash/pages/splash.dart';
 import 'package:online_shop/service_locator.dart';
 
+
 import 'firebase_options.dart';
 
 Future<void> main() async {
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
           theme: AppTheme.appTheme,
           debugShowCheckedModeBanner: false,
-          home: SplashPage()),
+          home: const SplashPage()),
     );
   }
 }
